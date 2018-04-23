@@ -17,14 +17,16 @@ scikit-learn, numpy and scipy libraries.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/tslearn-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tslearn-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/tslearn-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/tslearn-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/tslearn-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/tslearn-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/tslearn-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/tslearn-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/tslearn-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/tslearn-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/tslearn-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/tslearn-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tslearn/badges/version.svg)](https://anaconda.org/conda-forge/tslearn)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/tslearn/badges/downloads.svg)](https://anaconda.org/conda-forge/tslearn)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-tslearn-green.svg)](https://anaconda.org/conda-forge/tslearn) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/tslearn.svg)](https://anaconda.org/conda-forge/tslearn) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/tslearn.svg)](https://anaconda.org/conda-forge/tslearn) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/tslearn.svg)](https://anaconda.org/conda-forge/tslearn) |
 
 Installing tslearn
 ==================
