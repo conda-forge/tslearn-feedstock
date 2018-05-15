@@ -1,6 +1,6 @@
 {% set name = "tslearn" %}
-{% set version = "0.1.14" %}
-{% set sha256 = "6118616400bec7655836c6ddb885e8d5453e45c98b369841e112f58f863720fb" %}
+{% set version = "0.1.17" %}
+{% set sha256 = "eec74f1cc4598a4366624935e8dd7548fc1135499dbc12ba835745278034d59f" %}
 
 package:
   name: {{ name|lower }}
