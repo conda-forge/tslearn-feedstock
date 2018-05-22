@@ -1,6 +1,6 @@
 {% set name = "tslearn" %}
-{% set version = "0.1.18.3" %}
-{% set sha256 = "b312ff133014590068caeb4fa8d0a8e597445b9aa8289d77a549e36577264e12" %}
+{% set version = "0.1.15" %}
+{% set sha256 = "7de681a9644ad70bdd7bce37368e140cb7c3f13126d4969d5bad429f4e93f53b" %}
 
 package:
   name: {{ name|lower }}
@@ -37,7 +37,7 @@ about:
   home: http://tslearn.readthedocs.io/
   license: BSD-2-Clause
   license_family: BSD
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: LICENSE
   summary: 'A machine learning toolkit dedicated to time-series data'
   description: |
       tslearn is a Python package that provides machine learning tools
