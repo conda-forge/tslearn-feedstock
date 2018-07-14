@@ -12,19 +12,20 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 3
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
+    - {{ compiler('c') }}
+  host:
     - python
     - pip
-    - toolchain
     - cython
-    - numpy 1.11.*
+    - numpy
   run:
     - python
-    - numpy >=1.11
+    - {{ pin_compatible('numpy') }}
     - scipy
     - scikit-learn
 
