@@ -1,6 +1,6 @@
 {% set name = "tslearn" %}
-{% set version = "0.1.26" %}
-{% set sha256 = "9e4bcf44dfcbbfb698387cf016182c4724f20aecc5297f623d01c5558d83c095" %}
+{% set version = "0.1.27" %}
+{% set sha256 = "a29482a8af23dc2798be0e0219fd4ae605e635f099c5bb3afc5be0fa814aed87" %}
 
 
 package:
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
