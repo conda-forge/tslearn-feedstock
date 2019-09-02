@@ -30,6 +30,7 @@ requirements:
     - scipy
     - scikit-learn
     - numba
+    - joblib
 
 test:
   imports:
