@@ -1,6 +1,6 @@
 {% set name = "tslearn" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "2223f344d7e65eb6c033841b6f9515d0007b2b712e3a11315ba8cf44e29a97c7" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "2c66334385a075b99e8f832e188f5e401bde5d08912b7c524a0249b6d3dca35d" %}
 
 
 package:
@@ -42,11 +42,11 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'A machine learning toolkit dedicated to time-series data'
+  summary: A machine learning toolkit dedicated to time-series data
   description: |
-      tslearn is a Python package that provides machine learning tools
-      for the analysis of time series. This package builds on
-      scikit-learn, numpy and scipy libraries.
+    tslearn is a Python package that provides machine learning tools
+    for the analysis of time series. This package builds on
+    scikit-learn, numpy and scipy libraries.
   doc_url: http://tslearn.readthedocs.io/
   dev_url: https://github.com/rtavenar/tslearn
 
