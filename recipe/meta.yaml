@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 4
   skip: true  # [py2k]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -34,7 +34,7 @@ requirements:
   run:
     - python
     - scipy
-    - scikit-learn
+    - scikit-learn <1.7.0
     - numba
     - joblib
 
