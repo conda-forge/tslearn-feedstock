@@ -34,7 +34,7 @@ requirements:
   run:
     - python
     - scipy
-    - scikit-learn
+    - scikit-learn <1.7.0
     - numba
     - joblib
 
