@@ -34,7 +34,7 @@ requirements:
   run:
     - python
     - scipy
-    - scikit-learn <1.7.0
+    - scikit-learn
     - numba
     - joblib
 
@@ -54,7 +54,7 @@ about:
     for the analysis of time series. This package builds on
     scikit-learn, numpy and scipy libraries.
   doc_url: http://tslearn.readthedocs.io/
-  dev_url: https://github.com/rtavenar/tslearn
+  dev_url: https://github.com/tslearn-team/tslearn
 
 extra:
   recipe-maintainers:
