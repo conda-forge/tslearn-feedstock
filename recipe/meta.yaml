@@ -1,6 +1,6 @@
 {% set name = "tslearn" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "68107857404e9a3869ed452fc3b8f1f0b5fdee61a04438c7ee957ec7e928e594" %}
+{% set version = "0.9.0" %}
+{% set sha256 = "eb7d32b6876a5606275ebecbf9e0b22075490a5fc8d1d09e4c13c884b30a45af" %}
 
 
 package:
@@ -37,6 +37,7 @@ requirements:
     - scikit-learn
     - numba
     - joblib
+    - statsmodels
 
 test:
   imports:
