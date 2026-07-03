@@ -37,6 +37,7 @@ requirements:
     - scikit-learn
     - numba
     - joblib
+    - statsmodels
 
 test:
   imports:
