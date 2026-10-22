@@ -1,6 +1,6 @@
 {% set name = "tslearn" %}
-{% set version = "0.9.0" %}
-{% set sha256 = "eb7d32b6876a5606275ebecbf9e0b22075490a5fc8d1d09e4c13c884b30a45af" %}
+{% set version = "0.10.0" %}
+{% set sha256 = "d37147e49499f3c2b9b4f7f740c0f3ef67a3b69bf352ca6eadea532a0ab43d61" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
